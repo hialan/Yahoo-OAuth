@@ -25,7 +25,7 @@ GET Yahoo! SDK
 Setup SDK
 ======================================================
 
-support the downloaded sdk form github is *master.zip*
+Suppose downloaded sdk form github is *master.zip*
 
 $ unzip master.zip
 $ mv yahoo-yos-social-php5-d34814f/lib/Yahoo/ ./ 
@@ -39,6 +39,7 @@ Result dir
 - YahooOAuth.inc
 - SessionClean.php
 - OAuthExample.php
+- GET_APITest.php
 - Yahoo/
 	- YahooCurl.class.php
 	- YahooOAuthAccessToken.class.php

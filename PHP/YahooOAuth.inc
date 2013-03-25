@@ -1,5 +1,5 @@
 <?php
-require_once 'Yahoo/OAuth.php';
+require_once 'OAuth/OAuth.php';
 require_once 'Yahoo/YahooOAuthApplication.class.php';
 
 //print_r($_SERVER);
