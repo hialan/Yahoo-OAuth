@@ -1,0 +1,74 @@
+Dscription
+======================================================
+
+This is a OAuth example for Yahoo! API using PHP Session
+
+
+
+License
+======================================================
+
+No License, just for fun.
+
+
+
+GET Yahoo! SDK
+======================================================
+
+* Get SDK form: http://developer.yahoo.com/social/sdk/
+* Download the Yahoo! PHP SDK 1.0
+   * SRC: https://github.com/yahoo/yos-social-php5/
+   * ZIP: https://github.com/yahoo/yos-social-php5/zipball/master
+
+
+
+Setup SDK
+======================================================
+
+support the downloaded sdk form github is *master.zip*
+
+$ unzip master.zip
+$ mv yahoo-yos-social-php5-d34814f/lib/Yahoo/ ./ 
+$ mv yahoo-yos-social-php5-d34814f/lib/OAuth/ ./
+
+
+
+Result dir
+======================================================
+
+- YahooOAuth.inc
+- SessionClean.php
+- OAuthExample.php
+- Yahoo/
+	- YahooCurl.class.php
+	- YahooOAuthAccessToken.class.php
+	- YahooOAuthApplication.class.php
+	- YahooOAuthApplicationException.class.php
+	- YahooOAuthClient.class.php
+	- YahooOAuthRequestToken.class.php
+	- YahooYQLQuery.class.php
+- OAuth/
+	- OAuth.php
+
+
+
+Confit OAuth keys
+======================================================
+
+* Edit YahooOAuth.inc
+
+	$CONSUMER_KEY = "<your consumer key>"
+	$CONSUMER_SECRET = "<your sunsumer secret>";
+	$APPLICATION_ID = "<your application id>";
+	$CALLBACK_URL = "http://<your validated host>/OAuthExample.php";
+
+
+
+Run
+=====================================================
+
+1. Open your browser
+2. Input url: http://<your validated host>/OAuthExample.php
+
+
+
